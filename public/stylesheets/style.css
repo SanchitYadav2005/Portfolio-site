@@ -1,11 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #343232;
+}
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: baseline;
+    font-family: 'Satisfy', cursive;
+}
+nav h1{
+    color: white;
+    font-size: 3em;
+}
+ul li{
+    float: left;
+    padding-left: 3em;
+    list-style-type: none;
 }
 
-ul li{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
 }
