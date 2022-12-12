@@ -89,3 +89,22 @@ ul li a:hover::after {
     font-family: 'Open Sans', sans-serif;
     color: #f1faee;
 }
+.about{
+    margin-top: 15em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.about h1{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 5em;
+    font-weight: bolder;
+    color: #f1faee;
+    margin-bottom: 1.4em;
+}
+
+.about p{
+    font-size: 3em;
+    color: #f1faee;
+    font-family: 'Open Sans', sans-serif;
+}
