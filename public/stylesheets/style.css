@@ -64,19 +64,15 @@ ul li a:hover::after {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 10em;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 10em 10% 4em 10%;
     max-width: 90%;
 }
 .main #main-img{
     width: 90%;
     margin-right: 5em;
     height: 500px;
-    
     box-shadow: 15px 15px 0px #000000;
     transition: all 0.5s;
-    margin-bottom: 4em;
 }
 
 .main #main-img:hover{
