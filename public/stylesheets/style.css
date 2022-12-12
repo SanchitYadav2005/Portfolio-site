@@ -3,7 +3,7 @@
 
 body {
     padding: 0%;
-    margin: 0%;
+    margin: 0;
     background-color: #343232;
 }
 
@@ -58,4 +58,30 @@ ul li a::after {
 ul li a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10em;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 90%;
+}
+.main #main-img{
+    width: 90%;
+    margin-right: 5em;
+    height: 500px;
+    border-radius: 5%;
+}
+
+
+
+.open-sans{
+    margin-top: 0.5em;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1faee;
 }
