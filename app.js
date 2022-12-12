@@ -10,14 +10,9 @@ app.set('views', path.join(__dirname, '/views'));
 
 
 app.get('/', (req,res)=>{
-    res.render("home");
+    res.render("index");
 });
-app.get('/about', (req,res)=>{
-    res.render('about');
-});
-app.get('/contact', (req,res)=>{
-    res.render('contact');
-})
+
 app.listen(port, ()=>{
     console.log("serving!");
 })
