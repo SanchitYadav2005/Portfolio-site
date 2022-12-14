@@ -108,3 +108,16 @@ ul li a:hover::after {
     color: #f1faee;
     font-family: 'Open Sans', sans-serif;
 }
+
+.skills{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills .skills-img{
+    display: flex;
+    height: 100px;
+    width: 50%;
+    
+}
