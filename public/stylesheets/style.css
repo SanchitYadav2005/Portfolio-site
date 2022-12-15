@@ -110,14 +110,32 @@ ul li a:hover::after {
 }
 
 .skills{
-    display: flex; 
-    flex-direction: row;
-    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .skills .skills-img{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills-img img{
+    margin-right: 3em;
     height: 100px;
-    width: 50%;
-    
+    margin-bottom: 4em;
+}
+.skills .text{
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1faee;
+    margin-bottom: 4em;
+}
+.skills-section{
+    margin-top: 3em;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 5em;
+    color: #f1faee;
+    margin-bottom: 2em;
 }
