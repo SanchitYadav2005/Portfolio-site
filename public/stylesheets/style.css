@@ -139,3 +139,27 @@ ul li a:hover::after {
     color: #f1faee;
     margin-bottom: 2em;
 }
+.contact{
+    margin-bottom: 10em;
+}
+.contact p{
+    font-family: 'Open Sans', sans-serif;
+    color: #f1faee;
+    font-size: 2em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+.contact h1{
+    margin-bottom: 1em;
+}
+.contacts a img{
+    height: 150px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
