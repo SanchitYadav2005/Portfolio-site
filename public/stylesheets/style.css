@@ -21,6 +21,7 @@ nav h1 {
     font-size: 3em;
 }
 
+
 nav h1:hover {
     text-shadow: .1em .1em 0 #219ebc;
     cursor: pointer;
@@ -79,7 +80,6 @@ ul li a:hover::after {
     box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
     border-radius: 5%;
 }
-
 
 
 .open-sans{
