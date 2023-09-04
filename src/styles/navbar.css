@@ -1,31 +1,65 @@
-.name{
-    margin: 5em 2em;
-    font-size: 20px;
-    font-weight: bolder;
+.name {
+  margin: 5em 1em;
+  color: #ffbe0b;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Studio Ashtral Free;
+  -webkit-text-stroke: 2px #ffbe0b;
+
+  /* text-shadow: 3px 3px 20px #89fc00, -2px 1px 30px #89fc00; */
+  text-shadow: 0 2px 1px #ffbe0b, 
+      -1px 3px 1px #ffc31f, 
+      -2px 5px 1px #ffc832, 
+      -3px 7px 1px #ffce46,
+      -4px 9px 1px #ffd359,
+      -5px 11px 1px #ffd86d,
+      -6px 13px 1px #ffdd81,
+      -7px 15px 1px #ffe394, 
+      -8px 17px 1px #ffe8a8,
+      -9px 19px 1px #ffedbc,
+      -10px 21px 1px #fff2cf,
+      -11px 23px 1px #fff7e3,
+      -12px 25px 1px #a2a2a2, 
+      -13px 27px 1px #a7a7a7,
+      -14px 29px 1px #adadad,
+      -15px 31px 1px #b3b3b3,
+      -16px 33px 1px #b6b6b6,
+      -17px 35px 1px #bcbcbc, 
+      -18px 37px 1px #c2c2c2,
+      -19px 39px 1px #c8c8c8,
+      -20px 41px 1px #cbcbcb,
+      -21px 43px 1px #d2d2d2,
+      -22px 45px 1px #d5d5d5, 
+      -23px 47px 1px #e2e2e2,
+      -24px 49px 1px #e6e6e6,
+      -25px 51px 1px #eaeaea,
+      -26px 53px 1px #efefef;
 }
 
-.list{
-    list-style: none;
-    display: flex;
+
+
+.list {
+  list-style: none;
+  display: flex;
 }
 
-.list-item{
-    font-size: 2em;
-    padding-right: 0.5em;
+.list-item {
+  font-size: 2em;
+  padding-right: 0.5em;
 }
-.list-item-link{
-    text-decoration: none;
-    color: #edf2f4;
+.list-item-link {
+  text-decoration: none;
+  color: #edf2f4;
 }
-#instagram:hover{
-    color:#ef233c;
+#instagram:hover {
+  color: #ef233c;
 }
-#linkedin:hover{
-    color: #003566;
+#linkedin:hover {
+  color: #003566;
 }
-#twitter:hover{
-    color: #90e0ef;
+#twitter:hover {
+  color: #90e0ef;
 }
-.list-item-link-img{
-    width:7%
+.list-item-link-img {
+  width: 7%;
 }

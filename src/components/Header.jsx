@@ -10,7 +10,7 @@ function Header() {
       transition={{ duration: 0.5 }}
     >
       <nav>
-        <h1 className="name">Sanchit Yadav</h1>
+        <h1 className="name">Sanchit   Yadav</h1>
         <ul className="list">
           <li className="list-item">
             <a className="list-item-link fa fa-instagram" id="instagram" href="#"></a>
