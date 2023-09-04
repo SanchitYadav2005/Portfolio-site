@@ -1,0 +1,31 @@
+.name{
+    margin: 5em 2em;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+}
+
+.list-item{
+    font-size: 2em;
+    padding-right: 0.5em;
+}
+.list-item-link{
+    text-decoration: none;
+    color: #edf2f4;
+}
+#instagram:hover{
+    color:#ef233c;
+}
+#linkedin:hover{
+    color: #003566;
+}
+#twitter:hover{
+    color: #90e0ef;
+}
+.list-item-link-img{
+    width:7%
+}
