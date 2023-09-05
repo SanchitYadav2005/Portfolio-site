@@ -71,6 +71,7 @@
 
 @media (max-width: 480px) and (min-width: 320px) {
   .name {
+    font-family: Studio Ashtral Free;
     margin: 8em 1em;
     font-size: 20px;
     text-shadow: 0 2px 1px #747474, -1px 3px 1px #767676, -2px 5px 1px #787878,
