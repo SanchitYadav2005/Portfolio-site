@@ -8,24 +8,16 @@
   -webkit-text-stroke: 2px #22c9e9;
 
   /* text-shadow: 3px 3px 20px #89fc00, -2px 1px 30px #89fc00; */
-  text-shadow: 0 2px 1px #747474, 
-      -1px 3px 1px #767676, 
-      -2px 5px 1px #787878, 
-      -3px 7px 1px #7a7a7a,
-      -4px 9px 1px #7f7f7f,
-      -5px 11px 1px #838383,
-      -6px 13px 1px #878787,
-      -7px 15px 1px #8a8a8a, 
-      -8px 17px 1px #8e8e8e,
-      -9px 19px 1px #949494,
-      -10px 21px 1px #989898,
-      -11px 23px 1px #9f9f9f;
-      transition: all 0.5s ease-in-out;
-      cursor: pointer;
-      position: relative;
+  text-shadow: 0 2px 1px #747474, -1px 3px 1px #767676, -2px 5px 1px #787878,
+    -3px 7px 1px #7a7a7a, -4px 9px 1px #7f7f7f, -5px 11px 1px #838383,
+    -6px 13px 1px #878787, -7px 15px 1px #8a8a8a, -8px 17px 1px #8e8e8e,
+    -9px 19px 1px #949494, -10px 21px 1px #989898, -11px 23px 1px #9f9f9f;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  position: relative;
 }
 .name:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25%;
   transform: scaleX(0);
@@ -41,7 +33,6 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
 
 .list {
   list-style: none;
@@ -74,6 +65,44 @@
   transition: all 0.2s ease-in;
 }
 
-.list-item-link-img:hover{
+.list-item-link-img:hover {
   transform: rotateY(180deg);
+}
+
+@media (max-width: 480px) and (min-width: 320px) {
+  .name {
+    margin: 8em 1em;
+    font-size: 20px;
+    text-shadow: 0 2px 1px #747474, -1px 3px 1px #767676, -2px 5px 1px #787878,
+      -3px 7px 1px #7a7a7a, -4px 9px 1px #7f7f7f, -5px 11px 1px #838383,
+      -6px 13px 1px #878787, -7px 15px 1px #8a8a8a, -8px 17px 1px #8e8e8e,
+      -9px 19px 1px #949494, -10px 21px 1px #989898, -11px 23px 1px #9f9f9f;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+  }
+  .name:after {
+    content: "";
+    position: absolute;
+    width: 52%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: -12px;
+    left: 65px;
+    background-color: #22c9e9;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .name:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .list-item-link-img{
+    width: 30%;
+  }
+  .list{
+    margin-left: 2em;
+  }
 }
