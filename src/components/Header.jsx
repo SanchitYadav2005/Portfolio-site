@@ -1,4 +1,4 @@
-import "../styles/navbar.css";
+import "../styles/header.css";
 import { motion } from "framer-motion";
 import "font-awesome/css/font-awesome.min.css";
 
