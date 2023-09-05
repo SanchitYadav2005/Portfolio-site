@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Tilt+Prism&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 .name {
-  margin: 5em 1em;
+  margin: 4em 1em;
   width: 90%;
   color: #22c9e9;
-  font-size: 40px;
-  font-family: "Merriweather Sans", sans-serif;
-  font-family: "Tilt Prism", cursive;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
   -webkit-text-stroke: 2px #22c9e9;
 
   /* text-shadow: 3px 3px 20px #89fc00, -2px 1px 30px #89fc00; */
@@ -20,7 +19,7 @@
 .name:after {
   content: "";
   position: absolute;
-  width: 25%;
+  width: 22%;
   transform: scaleX(0);
   height: 5px;
   bottom: -12px;
@@ -72,8 +71,7 @@
 
 @media (max-width: 480px) and (min-width: 320px) {
   .name {
-    font-family: "Merriweather Sans", sans-serif;
-    font-family: "Tilt Prism", cursive;
+    font-family: 'Dancing Script', cursive;
     margin: 8em 1em;
     font-size: 20px;
     text-shadow: 0 2px 1px #747474, -1px 3px 1px #767676, -2px 5px 1px #787878,
