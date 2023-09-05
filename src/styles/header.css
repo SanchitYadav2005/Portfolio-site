@@ -1,8 +1,3 @@
-@font-face{
-  font-family: Studio Ashtral Free;
-  src: url('C:\Users\dell\Desktop\newfolder\Studio Ashtral Free.ttf');
-  src: local("Studio Ashtral Free"), url('C:\Users\dell\Desktop\newfolder\Studio Ashtral Free.ttf') format("truetype");
-}
 .name {
   margin: 5em 1em;
   width: 90%;
@@ -75,6 +70,11 @@
 }
 
 @media (max-width: 480px) and (min-width: 320px) {
+  @font-face{
+    font-family: Studio Ashtral Free;
+    src: url('C:\Users\dell\Desktop\newfolder\Studio Ashtral Free.ttf');
+    src: local("Studio Ashtral Free"), url('C:\Users\dell\Desktop\newfolder\Studio Ashtral Free.ttf') format("truetype");
+  }
   .name {
     font-family: Studio Ashtral Free;
     margin: 8em 1em;
