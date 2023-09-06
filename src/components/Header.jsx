@@ -2,6 +2,8 @@ import "../styles/header.css";
 import { motion } from "framer-motion";
 import "font-awesome/css/font-awesome.min.css";
 import { useInView } from "react-intersection-observer";
+import icon from '../assets/fiverr.png';
+import photo from '../assets/img.jpg';
 
 function Header() {
   const [ref, isVisible] = useInView({ threshold: 0.5 });
@@ -50,8 +52,8 @@ function Header() {
               <a className="list-item-link" href="#">
                 <img
                   className="list-item-link-img"
-                  src="/src/assets/fiverr.png"
-                  alt=""
+                  src={icon}
+                  alt="fiver img"
                 />
               </a>
             </li>
@@ -70,7 +72,7 @@ function Header() {
           style={{ marginLeft: "50px" }}
         >
           <div className="intro" style={{ marginLeft: "50px" }}>
-            <img className="into-img" src="/src/assets/img.jpg" alt="" />
+            <img className="into-img" src={photo} alt="sanchit yadav" />
             <p className="para">
               Hey everyone this is Sanchit Yadav a pssionate web developer who
               wants to create websites and softwares. Currently I am student of
