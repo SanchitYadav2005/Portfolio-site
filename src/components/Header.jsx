@@ -50,7 +50,7 @@ function Header() {
               <a className="list-item-link" href="#">
                 <img
                   className="list-item-link-img"
-                  src="src\assets\fiverr.png"
+                  src="/src/assets/fiverr.png"
                   alt=""
                 />
               </a>
@@ -70,7 +70,7 @@ function Header() {
           style={{ marginLeft: "50px" }}
         >
           <div className="intro" style={{ marginLeft: "50px" }}>
-            <img className="into-img" src="src\assets\img.jpg" alt="" />
+            <img className="into-img" src="/src/assets/img.jpg" alt="" />
             <p className="para">
               Hey everyone this is Sanchit Yadav a pssionate web developer who
               wants to create websites and softwares. Currently I am student of
