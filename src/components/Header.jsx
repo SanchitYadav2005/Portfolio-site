@@ -4,7 +4,7 @@ import "font-awesome/css/font-awesome.min.css";
 import { useInView } from "react-intersection-observer";
 
 function Header() {
-  const [ref, isVisible] = useInView({ threshold: 0.7 });
+  const [ref, isVisible] = useInView({ threshold: 0.5 });
   const variants = {
     visible: {
       opacity: 1,
@@ -59,24 +59,28 @@ function Header() {
         </nav>
       </motion.div>
       <div style={{ height: "100vh" }}>
-        <h1>Scroll down to next section 👇</h1>
+        <i class="fa fa-angle-double-down icon"></i>
       </div>
-      <div ref={ref} style={{ height: "100vh", backgroundColor: "#23cebd" }}>
-      <motion.div
+      <div ref={ref} style={{ height: "100vh" }}>
+        <motion.div
           ref={ref}
           variants={variants}
           animate={isVisible ? "visible" : "hidden"}
           transition={{ duration: 0.5, ease: "easeOut" }}
           style={{ marginLeft: "50px" }}
         >
-        <div style={{ marginLeft: "50px" }}>
-          <h1>Hey I'm on the screen</h1>
-          <img
-            style={{ borderRadius: "30px" }}
-            alt="ralph from the simpsons waving his hand"
-            src="https://images.unsplash.com/photo-1682686579688-c2ba945eda0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
-          />
-        </div>
+          <div className="intro" style={{ marginLeft: "50px" }}>
+            <img className="into-img" src="src\assets\img.jpg" alt="" />
+            <p className="para">
+              Hey everyone this is Sanchit Yadav a pssionate web developer who
+              wants to create websites and softwares. Currently I am student of
+              Btech computer science. I am developing webistes since 2021. I was
+              introuced to computer in my childhood after that interaction I
+              fell in love with it. I am a freelance Full stack web developer.
+              Below you can see my tech self (I say it tech self because it's
+              just like have your own set of specality ☺️ ).
+            </p>
+          </div>
         </motion.div>
       </div>
     </>
