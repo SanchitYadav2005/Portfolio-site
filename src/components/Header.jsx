@@ -63,7 +63,7 @@ function Header() {
       <div className="icon-container" style={{ height: "100vh" }}>
         <i className="fa fa-angle-double-down floating" id="icon"></i>
       </div>
-      <div ref={ref} style={{ height: "100vh" }}>
+      <div className="container" ref={ref} style={{ height: "100vh" }}>
         <motion.div
           ref={ref}
           variants={variants}
@@ -72,7 +72,7 @@ function Header() {
           style={{ marginLeft: "50px" }}
         >
           <div className="intro" style={{ marginLeft: "50px" }}>
-            <img className="into-img" src={photo} alt="sanchit yadav" />
+            <img className="intro-img" src={photo} alt="sanchit yadav" />
             <p className="para">
               Hey everyone this is Sanchit Yadav a pssionate web developer who
               wants to create websites and softwares. Currently I am student of
