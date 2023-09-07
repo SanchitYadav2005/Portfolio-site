@@ -160,6 +160,8 @@
   }
   .intro-img{
     width: 90%;
+    padding-left: 5em;
+    padding-right: 5em;
   }
   
 }
