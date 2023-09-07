@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 .name {
   margin: 4em 1em;
   width: 90%;
   color: #22c9e9;
   font-size: 50px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   -webkit-text-stroke: 2px #22c9e9;
 
   /* text-shadow: 3px 3px 20px #89fc00, -2px 1px 30px #89fc00; */
@@ -69,9 +69,36 @@
   transform: rotateY(180deg);
 }
 
+#icon {
+  margin-left: 50%;
+  margin-top: 2em;
+  cursor: pointer;
+  font-size: 3em;
+}
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
 @media (max-width: 480px) and (min-width: 320px) {
   .name {
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     margin: 5em 0.5em;
     font-size: 40px;
     text-shadow: 0 2px 1px #747474, -1px 3px 1px #767676, -2px 5px 1px #787878,
@@ -95,7 +122,6 @@
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
-
   .name:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
