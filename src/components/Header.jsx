@@ -60,8 +60,8 @@ function Header() {
           </ul>
         </nav>
       </motion.div>
-      <div style={{ height: "100vh" }}>
-        <i class="fa fa-angle-double-down icon"></i>
+      <div className="icon-container" style={{ height: "100vh" }}>
+        <i className="fa fa-angle-double-down floating" id="icon"></i>
       </div>
       <div ref={ref} style={{ height: "100vh" }}>
         <motion.div
