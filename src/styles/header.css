@@ -130,6 +130,9 @@
     width: 30%;
   }
   .list {
-    margin-left: 2em;
+    margin-left: 4em;
+  }
+  #icon{
+    margin-left: 45%;
   }
 }
