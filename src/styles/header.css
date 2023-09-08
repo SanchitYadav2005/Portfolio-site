@@ -156,7 +156,6 @@
   .intro{
     display: flex;
     flex-direction: column;
-    width: 70%;
   }
   .intro-img{
     width: 110%;
