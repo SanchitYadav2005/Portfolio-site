@@ -69,7 +69,6 @@ function Header() {
           variants={variants}
           animate={isVisible ? "visible" : "hidden"}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          style={{ marginLeft: "50px" }}
         >
           <div className="intro">
             <img className="intro-img" src={photo} alt="sanchit yadav" />
