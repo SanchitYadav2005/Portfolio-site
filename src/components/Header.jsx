@@ -71,7 +71,7 @@ function Header() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           style={{ marginLeft: "50px" }}
         >
-          <div className="intro" style={{ marginLeft: "50px" }}>
+          <div className="intro">
             <img className="intro-img" src={photo} alt="sanchit yadav" />
             <p className="para">
               Hey everyone this is Sanchit Yadav a pssionate web developer who
