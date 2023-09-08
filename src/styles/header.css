@@ -94,7 +94,7 @@
   margin-right: 3em;
   border-radius: 30px;
   cursor: pointer;
-  margin-left: 3em;
+  margin-left: 6em;
 }
 .para {
   font-size: 1.3em;
@@ -160,7 +160,7 @@
   }
   .intro-img{
     width: 110%;
-    margin-left: -1.5em;
+    margin-left: 0em;
   }
   .para{
     margin-top: 4em;
