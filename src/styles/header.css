@@ -87,7 +87,6 @@
 }
 .intro {
   display: flex;
-  justify-content: space-between;
   width: 90%;
 }
 .intro-img {
@@ -95,6 +94,7 @@
   margin-right: 3em;
   border-radius: 30px;
   cursor: pointer;
+  margin-left: 3em;
 }
 .para {
   font-size: 1.3em;
@@ -159,6 +159,7 @@
   }
   .intro-img{
     width: 110%;
+    margin-left: 1em;
   }
   
 }
