@@ -153,10 +153,10 @@
   #icon {
     margin-left: 47%;
   }
-  /* .intro{
+  .intro{
     display: flex;
     flex-direction: column;
-  } */
+  }
   .intro-img{
     width: 110%;
   }
