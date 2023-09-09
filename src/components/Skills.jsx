@@ -221,8 +221,8 @@ function Skills() {
               gradientTransform="matrix(1 0 0 -1 0 -132)"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0" stop-color="#fff"></stop>
-              <stop offset="1" stop-color="#f1e5fc"></stop>
+              <stop offset="0" stopColor="#fff"></stop>
+              <stop offset="1" stopColor="#f1e5fc"></stop>
             </linearGradient>
             <path
               fill="url(#Is-EGaxKcc0Cic9QMqyzGa_EzPCiQUqWWEa_gr1)"
