@@ -1,10 +1,12 @@
+import '../styles/skills.css';
+
 function Skills() {
   return (
     <>
       <div className="skills-section">
         <div className="head">
-          <h1>My skills</h1>
-          <p>
+          <h1 className="head-heading">My skills</h1>
+          <p className="head-para">
             From the beginning days of when I first got into software
             development up until now, I’ve learned and gained a solid
             understanding of web development standards, the importance of
