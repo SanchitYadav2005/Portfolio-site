@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inconsolata:wght@500&display=swap");
+
+.skills-section {
+  display: flex;
+  margin-left: 2em;
+  font-family: "Dancing Script", cursive;
+  font-family: "Inconsolata", monospace;
+  margin-top: 5em;
+  align-items: center;
+}
+
+.head {
+  width: 90%;
+  margin-right: 4.5em;
+}
+.head-heading {
+  font-weight: bolder;
+}
+.head-para {
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.display-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 2em;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.display-skills svg {
+  margin-top: 3em;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 40px;
+}
+
+.display-skills svg:nth-of-type(1){
+    border-radius:40px;
+}
+.display-skills svg:nth-of-type(2){
+    border-radius:40px;
+}
+.display-skills svg:nth-of-type(3){
+    border-radius:20px;
+}
+.display-skills svg:nth-of-type(4){
+    border-radius:20px;
+}
+.display-skills svg:nth-of-type(5){
+    border-radius:50px;
+}
+.display-skills svg:nth-of-type(6){
+    border-radius:50px;
+}
+.display-skills svg:nth-of-type(7){
+    border-radius:20px;
+}
+.display-skills svg:nth-of-type(8){
+    border-radius:40px 40px 50px 50px;
+}
+.display-skills svg:nth-of-type(9){
+    border-radius:20px;
+}
+.display-skills svg:nth-of-type(10){
+    border-radius:40px;
+}
+.display-skills svg:hover {
+  box-shadow: none;
+}
+
+@media (max-width: 480px) and (min-width:320px){
+    .skills-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 35em;
+    }
+    .head{
+        text-align: center;
+        margin-left: 2.5em;
+    }
+}
