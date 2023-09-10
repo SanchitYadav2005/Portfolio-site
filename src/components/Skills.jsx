@@ -1,9 +1,30 @@
 import '../styles/skills.css';
+import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 function Skills() {
+  const [ref, isVisible] = useInView({ threshold: 0.5 });
+  const variants = {
+    visible: {
+      opacity: 1,
+      x: 0,
+    },
+    hidden: {
+      opacity: 0,
+      x: -100,
+    },
+  };
   return (
+    
     <>
+    <motion.div
+          ref={ref}
+          variants={variants}
+          animate={isVisible ? "visible" : "hidden"}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
       <div className="skills-section">
+      
         <div className="head">
           <h1 className="head-heading">My skills</h1>
           <p className="head-para">
@@ -245,7 +266,9 @@ function Skills() {
             ></path>
           </svg>
         </div>
+        
       </div>
+      </motion.div>
     </>
   );
 }

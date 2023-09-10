@@ -78,7 +78,7 @@ function Header() {
               Btech computer science. I am developing webistes since 2021. I was
               introuced to computer in my childhood after that interaction I
               fell in love with it. I am a freelance Full stack web developer.
-              Below you can see my tech self (I say it tech self because it's
+              Below you can see my tech self (I say it tech self because its
               just like have your own set of specality ☺️ ).
             </p>
           </div>
