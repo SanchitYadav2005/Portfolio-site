@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Skills from "./Skills";
 import ContributionSection from "./ContributionSection";
+import ProjectSection from "./ProjectSection";
 
 function MainPage(){
     return(
@@ -8,6 +9,7 @@ function MainPage(){
             <Header/>
             <Skills/>
             <ContributionSection/>
+            <ProjectSection/>
         </>
     )
 }

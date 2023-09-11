@@ -12,3 +12,11 @@ h3{
     font-size: 2em;
 }
 
+@media (max-width: 480px) and (min-width: 320px){
+    .container{
+        margin-left: 2%;
+    }
+    h3{
+        margin-left: 18%;
+    }
+}
