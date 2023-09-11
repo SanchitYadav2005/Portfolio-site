@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inconsolata:wght@500&display=swap");
+
+.container{
+    font-family: "Inconsolata", monospace;
+    margin-left: 17%;
+    margin-bottom: 30em;
+}
+
+h3{
+    margin-left: 30%;
+    margin-bottom: 3em;
+    font-size: 2em;
+}
+
