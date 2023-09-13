@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inconsolata:wght@500&display=swap");
+
+.project{
+    font-family: "Inconsolata", monospace;
+    margin-left: 10em;
+}
+h2{
+    margin-bottom: 5em;
+    font-size: 30px;
+}
+
+.project-video{
+    width: 90%;
+    margin-bottom: 2em;
+}
+
+.card-info{
+    width: 80%;
+    margin-left: 2.3em;
+    font-size: 30px;
+    color: #495057;
+    font-weight: lighter;
+}
+.card{
+    margin-bottom: 5em;
+}
