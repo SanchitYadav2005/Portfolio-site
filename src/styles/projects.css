@@ -24,3 +24,16 @@ h2{
 .card{
     margin-bottom: 5em;
 }
+
+@media(max-width:480px) and (min-width: 320px){
+    .project{
+        margin-left: 2.4em;
+    }
+    .card-info{
+        margin-left: 1em;
+        font-size: 20px;
+    }
+    .project-video{
+        border-radius: 10px;
+    }
+}
