@@ -34,6 +34,7 @@ function ProjectSection() {
               </p>
             </div>
           </div>
+          <h4>More comming soon......</h4>
         </motion.div>
       </div>
     </>
