@@ -159,10 +159,13 @@
   }
   .intro-img{
     width: 110%;
-    margin-right: 1em;
+    margin-left: 2em;
+    margin-right: 0.4em;
   }
   .para{
     margin-top: 4em;
     line-height: 23px;
+    margin-left: 2em;
+    margin-right: 0.4em;
   }
 }
