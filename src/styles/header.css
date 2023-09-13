@@ -99,10 +99,10 @@
   display: flex;
   width: 90%;
   align-items: center;
+  margin-left: 1.5em;
 }
 .intro-img {
   width: 500%;
-  margin-right: 3em;
   border-radius: 30px;
   cursor: pointer;
 }
