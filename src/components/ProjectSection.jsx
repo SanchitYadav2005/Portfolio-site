@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import '../styles/projects.css'
+import '../styles/projects.css';
+import unplashProjectVideo from '../assets/unplash.mp4';
 
 function ProjectSection() {
   const [ref, isVisible] = useInView({ threshold: 0.5 });
@@ -27,7 +28,7 @@ function ProjectSection() {
           <div className="project-container">
             <div className="card">
               <video className="project-video" loop autoPlay muted>
-                <source src="/src/assets/unplash.mp4" type="video/mp4"/>
+                <source src={unplashProjectVideo} type="video/mp4"/>
               </video>
               <p className="card-info">
                 It is an simple unplash clone that fetches data using unplash api and display it to the screen you can download the images from it. It uses react and material ui.
