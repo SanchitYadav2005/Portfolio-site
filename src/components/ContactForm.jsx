@@ -1,7 +1,20 @@
 import useInoutHook from "../hooks/useInoutHook";
 import "../styles/form.css";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 function ContactForm() {
+  const [ref, isVisible] = useInView({ threshold: 0.5 });
+  const variants = {
+    visible: {
+      opacity: 1,
+      x: 0,
+    },
+    hidden: {
+      opacity: 0,
+      x: -100,
+    },
+  };
   const [
     value1,
     value2,
@@ -13,6 +26,12 @@ function ContactForm() {
   ] = useInoutHook("");
   return (
     <>
+     <motion.div
+          ref={ref}
+          variants={variants}
+          animate={isVisible ? "visible" : "hidden"}
+          transition={{ duration: 0.5, ease: "easeOut" }}
+        >
       <h4 className="contact_me">Contact me</h4>
       <form
         action=""
@@ -55,6 +74,7 @@ function ContactForm() {
         </div>
         <button>Contact</button>
       </form>
+      </motion.div>
     </>
   );
 }
