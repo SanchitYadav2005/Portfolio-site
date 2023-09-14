@@ -76,7 +76,7 @@ function ContactForm() {
             onChange={handleChange2}
           />
         </div>
-        <button  onClick={handleClick} onSubmit={reset}>Contact</button>
+        <button  onClick={handleClick} >Contact</button>
       </form>
       </motion.div>
     </>
