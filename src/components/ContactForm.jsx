@@ -44,6 +44,7 @@ function ContactForm() {
           variants={variants}
           animate={isVisible ? "visible" : "hidden"}
           transition={{ duration: 0.5, ease: "easeOut" }}
+          className="main"
         >
       <h4 className="contact_me">Contact me</h4>
       <form
