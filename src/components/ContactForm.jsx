@@ -2,6 +2,8 @@ import useInoutHook from "../hooks/useInoutHook";
 import "../styles/form.css";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import emailjs from '@emailjs/browser';
+emailjs.init("5HlDQigCi5AbtQK2H")
 
 function ContactForm() {
   const [ref, isVisible] = useInView({ threshold: 0.5 });
@@ -18,12 +20,23 @@ function ContactForm() {
   const [
     value1,
     value2,
-    value3,
     handleChange1,
     handleChange2,
-    handleChange3,
     reset,
   ] = useInoutHook("");
+  const tamplateParams = {
+    from_name: value1,
+    message: value2
+  }
+  function handleClick(){
+    emailjs.send("service_0azzzag","template_bi5ug2k", tamplateParams)
+        .then(function(respones){
+          console.log("success", respones.status, respones.text)
+        }, function(error){
+          console.log(error);
+        })
+  }
+  
   return (
     <>
      <motion.div
@@ -40,25 +53,16 @@ function ContactForm() {
           e.preventDefault();
           reset;
         }}
+       
       >
         <div className="input-container">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="name">Name</label>
           <input
-            type="email"
-            name="email"
-            id="email"
+            type="name"
+            name="name"
+            id="name"
             value={value1}
             onChange={handleChange1}
-          />
-        </div>
-        <div className="input-container">
-          <label htmlFor="sub">Subject</label>
-          <input
-            type="text"
-            name="sub"
-            id="sub"
-            value={value2}
-            onChange={handleChange2}
           />
         </div>
         <div className="input-container">
@@ -68,11 +72,11 @@ function ContactForm() {
             id="message"
             cols="30"
             rows="10"
-            value={value3}
-            onChange={handleChange3}
+            value={value2}
+            onChange={handleChange2}
           />
         </div>
-        <button>Contact</button>
+        <button  onClick={handleClick} onSubmit={reset}>Contact</button>
       </form>
       </motion.div>
     </>
