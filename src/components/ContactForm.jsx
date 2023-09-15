@@ -64,6 +64,7 @@ function ContactForm() {
             id="name"
             value={value1}
             onChange={handleChange1}
+            placeholder="enter your name here...."
           />
         </div>
         <div className="input-container">
@@ -71,13 +72,14 @@ function ContactForm() {
           <textarea
             name="message"
             id="message"
-            cols="30"
-            rows="10"
+            cols="50"
+            rows="4"
             value={value2}
             onChange={handleChange2}
+            placeholder="Message ..."
           />
         </div>
-        <button  onClick={handleClick} >Contact</button>
+        <button className="btn" onClick={handleClick} >Contact</button>
       </form>
       </motion.div>
     </>
