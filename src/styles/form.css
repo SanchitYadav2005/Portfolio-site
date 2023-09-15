@@ -2,4 +2,59 @@
 
 .main{
     font-family: "Inconsolata", monospace;
+    margin-left: 10%;
+}
+
+.contact_me{
+    font-size: 30px;
+    margin-bottom: 4em;
+    margin-left: 28%;
+}
+form{
+    margin-left: 28%;
+    margin-bottom: 20em;
+}
+
+.input-container label{
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 0.5em;
+}
+.input-container input{
+    margin-bottom: 1.5em;
+    font-size: 1em;
+    padding: 0.5em 12.5em 0.5em 0.5em;
+}
+.input-container textarea{
+    font-size: 1em;
+    padding: 0.5em 2em 0.5em 0.5em;
+    margin-bottom: 6em;
+    resize: none;
+}
+
+.input-container input:focus{
+    outline: none;
+}
+.input-container input:focus::placeholder{
+    color: transparent;
+}
+.input-container textarea:focus{
+    outline:  none;
+}
+.input-container textarea:focus::placeholder{
+    color: transparent;
+}
+
+.btn{
+    padding: 0.5em 3em 0.5em 3em;
+    margin-left: 13%;
+    font-size: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid grey;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
