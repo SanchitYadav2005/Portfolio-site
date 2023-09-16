@@ -1,4 +1,4 @@
-function Footer() {
+function FooterSection() {
   return (
     <>
       <Footer>©copyright 𝒮𝒶𝓃𝒸𝒽𝒾𝓉 𝒴𝒶𝒹𝒶𝓋 </Footer>
@@ -6,4 +6,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default FooterSection;
