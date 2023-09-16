@@ -1,7 +1,7 @@
 function FooterSection() {
   return (
     <>
-      <Footer>©copyright 𝒮𝒶𝓃𝒸𝒽𝒾𝓉 𝒴𝒶𝒹𝒶𝓋 </Footer>
+      <footer style={{textAlign:'center'}}>©copyright 𝒮𝒶𝓃𝒸𝒽𝒾𝓉 𝒴𝒶𝒹𝒶𝓋 </footer>
     </>
   );
 }
