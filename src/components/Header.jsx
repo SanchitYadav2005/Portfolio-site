@@ -31,25 +31,31 @@ function Header() {
               <a
                 className="list-item-link fa fa-instagram"
                 id="instagram"
-                href="#"
+                href="https://www.instagram.com/sanchit.codes/"
+                target="blank"
+                rel="noreferrer"
               ></a>
             </li>
             <li className="list-item">
               <a
                 className="list-item-link fa fa-linkedin"
                 id="linkedin"
-                href="#"
+                href="https://www.linkedin.com/in/sanchi--yadav--/"
+                target="_blank"
+                rel="noreferrer"
               ></a>
             </li>
             <li className="list-item">
               <a
                 className="list-item-link fa fa-twitter"
                 id="twitter"
-                href="#"
+                href="https://twitter.com/Sanchit95529525"
+                target="_blank"
+                rel="noreferrer"
               ></a>
             </li>
             <li className="list-item">
-              <a className="list-item-link" href="#">
+              <a className="list-item-link" href="https://www.fiverr.com/sanchit_yadav?up_rollout=true" target="_blank" rel="noreferrer">
                 <img
                   className="list-item-link-img"
                   src={icon}
